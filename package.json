@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "biome check",
     "format": "biome format --write",
-    "prepare": "husky",
+    "prepare": "node .husky/install.mjs",
     "commit": "commit",
     "test": "vitest"
   },
@@ -33,6 +33,7 @@
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
     "@vitejs/plugin-react": "^5.0.4",
+    "husky": "^9.1.7",
     "jsdom": "^27.0.1",
     "lint-staged": "^16.2.4",
     "tailwindcss": "^4",
