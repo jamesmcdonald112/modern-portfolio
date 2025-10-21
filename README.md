@@ -5,7 +5,7 @@
 > A fast, type-safe, full-stack portfolio built with **Next.js 14 (T3-inspired)** to showcase projects, blog posts, and workflow automations.
 
 
-[![Build](https://img.shields.io/github/actions/workflow/status/jamesmcdonald112/portfolio/ci.yml?label=build)](https://github.com/jamesmcdonald112/modern-portfolio/actions)
+[![Build](https://img.shields.io/github/actions/workflow/status/jamesmcdonald112/modern-portfolio/ci.yml?label=build)](https://github.com/jamesmcdonald112/modern-portfolio/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)](https://www.typescriptlang.org)
