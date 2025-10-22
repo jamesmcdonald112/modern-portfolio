@@ -9,7 +9,24 @@ updates:
     directory: "/"
     # Check the npm registry for updates every day (weekdays)
     schedule:
-      interval: "daily"
+      interval: "weekly"
+    groups:
+      dev-dependencies:
+        patterns:
+          - "@types/*"
+          - "@testing-library/*"
+          - "vitest"
+          - "lint-staged"
+          - "husky"
+          - "biomejs/*"
+      prod-dependencies:
+        patterns:
+          - "next"
+          - "react"
+          - "react-dom"
+          - "tailwindcss"
+          - "@tailwindcss/*"
+          - "postcss"
 
   # Enable version updates for GitHub Actions
   - package-ecosystem: "github-actions"
